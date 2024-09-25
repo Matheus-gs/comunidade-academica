@@ -15,7 +15,7 @@ export function LinkCard({label, href}: ILinkCardProps) {
     }
 
     return (
-        <div onClick={() => openLinkPage(href)} className="w-[120px] h-[120px] text-center flex items-center justify-center p-2 rounded-lg text-gray-800 bg-white shadow hover:brightness-95 transition-all cursor-pointer ease-in-out">
+        <div onClick={() => openLinkPage(href)} className="w-full md:w-[120px] h-[120px] text-center flex items-center justify-center p-2 rounded-lg text-gray-800 bg-white shadow hover:brightness-95 transition-all cursor-pointer ease-in-out">
            {label}
         </div>
     )

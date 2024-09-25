@@ -52,16 +52,14 @@ export default function App() {
   ))
 
   return (
-    <div className="w-full h-screen flex justify-center bg-black relative">
+    <div className="grid place-content-center w-full min-h-screen h-full bg-black relative">
       <div className="flex flex-col w-full max-w-72">
         <Header />
-        <div className="w-full flex gap-3 flex-wrap p-4">
+        <div className="w-full flex gap-3 flex-wrap p-4 overflow-y-auto">
           {links}
         </div>
       </div>
-      <div className="absolute bottom-0 right-0 left-0">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   )
 }

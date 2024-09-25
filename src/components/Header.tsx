@@ -8,9 +8,9 @@ export function Header() {
         link.click()
     }
     return (
-        <div className="flex items-center justify-between py-2 px-3 cursor-pointer">
+        <div className="flex items-center justify-between py-2 px-3 cursor-pointer" >
             <h2 className="text-white">Comunidade Acadêmica</h2>
-            <FaGithub className="text-[24px] text-white" onClick={openSponsorPage} />
+            <FaGithub className="text-[24px] text-white" onClick={openSponsorPage} title="Clique para acessar o repositório do projeto" />
         </div>
     )
 }

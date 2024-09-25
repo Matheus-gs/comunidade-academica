@@ -52,7 +52,7 @@ export default function App() {
   ))
 
   return (
-    <div className="w-full h-screen flex justify-center bg-slate-400 relative">
+    <div className="w-full h-screen flex justify-center bg-black relative">
       <div className="flex flex-col w-full max-w-72">
         <Header />
         <div className="w-full flex gap-3 flex-wrap p-4">

@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const linkCard = document.createElement("a");
           linkCard.className = "link-card";
           linkCard.href = file.html_url;
-          linkCard.textContent = file.name;
+          linkCard.textContent = capitalize(file.name);
           linkCard.target = "_blank";
           linksContainer.appendChild(linkCard);
         });
@@ -30,3 +30,16 @@ document.querySelector(".github-icon").addEventListener("click", function () {
   link.target = "_blank";
   link.click();
 });
+
+function capitalize(str) {
+  if (!str) {
+    return "";
+  }
+
+  return str
+    .split(" ")
+    .map((word) => {
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(" ");
+}

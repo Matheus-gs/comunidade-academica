@@ -10,22 +10,18 @@ document
 
 const linkList = [
 {
-  id: 0,
   label: "Agenda de Eventos",
   href: "https://google.com/search?q=eventos+do+udf",
 },
 {
-  id: 1,
   label: "Notificações",
   href: "https://google.com/search?q=notificacoes+udf",
 },
 {
-  id: 2,
   label: "Espaço para Networking",
   href: "https://google.com/search?q=networking+udf",
 },
 {
-  id: 3,
   label: "Recursos Educacionais",
   href: "https://google.com/search?q=recursos+udf",
 },

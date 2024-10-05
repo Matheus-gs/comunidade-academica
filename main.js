@@ -11,11 +11,15 @@ document.addEventListener("DOMContentLoaded", () => {
         data.forEach((file) => {
           const linkCard = document.createElement("a");
           linkCard.className = "link-card";
-          linkCard.href = file.href;
+          linkCard.href = file.html_url;
           linkCard.textContent = file.name;
+          linkCard.target = "_blank";
           linksContainer.appendChild(linkCard);
         });
       }
+    })
+    .catch((error) => {
+      console.error(`Erro ao buscar os arquivos em: ${apiUrl}, erro =>`, error);
     });
 });
 

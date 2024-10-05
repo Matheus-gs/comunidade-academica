@@ -100,8 +100,6 @@ body {
 
 .links-container {
   height: 100%;
-  display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -118,7 +116,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 18px;
-  width: 168px;
+  width: 268px;
   height: 168px;
   display: flex;
   align-items: center;

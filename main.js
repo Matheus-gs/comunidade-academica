@@ -1,6 +1,7 @@
 const owner = "Matheus-gs";
 const repo = "comunidade-academica";
-const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/`;
+const dataDirectory = "contents";
+const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${dataDirectory}`;
 const linksContainer = document.getElementById("links");
 
 document.addEventListener("DOMContentLoaded", () => {

@@ -1,9 +1,12 @@
 # Comunidade Acadêmica
 
 
+### Requisitos 
+* [Node](https://nodejs.org/en)
+
 ```shell
 # Para executar o projeto em ambiente local
-pnpm install && pnpm dev
+npm install && npm run dev
 ```
 
 # Desenvolvido por

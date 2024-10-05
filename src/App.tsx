@@ -1,66 +1,23 @@
-import { Footer } from "./components/Footer"
-import { Header } from "./components/Header"
-import { LinkCard } from "./components/LinkCard"
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
+
+const firebaseConfig = {
+  apiKey: import.meta.env.FIREBASE_API_KEY,
+  authDomain: import.meta.env.FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.FIREBASE_APP_ID,
+  measurementId: import.meta.env.FIREBASE_MEASUREMENT_ID,
+};
 
 export default function App() {
-  const linkList = [
-    {
-      id: 0,
-      label: 'Agenda de Eventos',
-      href: 'https://google.com/search?q=eventos+do+udf'
-    },
-    {
-      id: 1,
-      label: 'Notificações',
-      href: 'https://google.com/search?q=notificacoes+udf'
-    },
-    {
-      id: 2,
-      label: 'Espaço para Networking',
-      href: 'https://google.com/search?q=networking+udf'
-    },
-    {
-      id: 3,
-      label: 'Recursos Educacionais',
-      href: 'https://google.com/search?q=recursos+udf'
-    },
-    {
-      id: 4,
-      label: 'Lorem',
-      href: 'https://google.com/search?q=projetos+udf'
-    },
-    {
-      id: 5,
-      label: 'Ipsum',
-      href: 'https://google.com/search?q=projetos+udf'
-    },
-    {
-      id: 6,
-      label: 'Dolor',
-      href: 'https://google.com/search?q=projetos+udf'
-    },
-    {
-      id: 7,
-      label: 'Sem ideia',
-      href: 'https://google.com/search?q=projetos+udf'
-    },
-
-  ]
-
-  const links = linkList.map(link => (
-    <LinkCard key={link.id} label={link.label} href={link.href} />
-  ))
+  const app = initializeApp(firebaseConfig);
+  getAnalytics(app);
 
   return (
-    <div className="grid place-content-center w-full min-h-screen h-full bg-black relative">
-      <div className="flex flex-col w-full max-w-72">
-        <Header />
-        <div className="w-full flex gap-3 flex-wrap p-4 overflow-y-auto">
-          {links}
-        </div>
-      </div>
-      <Footer />
+    <div>
+      <h1>Hello World</h1>
     </div>
-  )
+  );
 }
-

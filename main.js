@@ -2,10 +2,13 @@ const owner = "Matheus-gs";
 const repo = "comunidade-academica";
 const dataDirectory = "contents";
 const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${dataDirectory}`;
+const projectRepo = "https://github.com/matheus-gs/comunidade-academica";
+
 const linksContainer = document.getElementById("links");
 const notFoundSection = document.getElementById("notFoundSection");
 const notFoundDecription = document.getElementById("notFoundDescription");
 const searchInput = document.getElementById("searchInput");
+const githubLink = document.getElementById("githubLink");
 
 let data = [];
 
@@ -69,3 +72,10 @@ function capitalize(str) {
     })
     .join(" ");
 }
+
+githubLink.addEventListener("click", () => {
+  const linkEl = document.createElement("a");
+  linkEl.href = projectRepo;
+  linkEl.target = "_blank";
+  linkEl.click();
+});

@@ -34,7 +34,7 @@ searchInput.addEventListener("input", () => {
   if (filteredData.length) {
     renderLinks(filteredData);
   } else {
-    debounce(renderNotFound(searchTerm), 1000);
+    debounce(renderNotFound(searchTerm), 1500);
   }
 });
 

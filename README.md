@@ -1,5 +1,7 @@
 # Comunidade Acadêmica
 
+<!--  -->
+
 ### Requisitos
 
 - [vscode](https://code.visualstudio.com/)
@@ -17,16 +19,16 @@
 
 Dentro da pasta [contents](https://github.com/Matheus-gs/comunidade-academica/tree/main/contents) adicione um arquivo de extensão `.md`, para isso, clique em "Add file" e em seguida em "Create new file"
 
-![alt text](image.png)
+![alt text](docs/image.png)
 
 Dê um nome para o seu conteúdo e escreva o que desejar compartilhar, no nosso caso escolhemos `python para iniciantes.md`
-![alt text](image-1.png)
+![alt text](docs/image-1.png)
 
 Quando quiser publicar, clique em `commit changes...` e adicione uma breve descrição sobre o seu texto, após isso selecione a opção `Create a new branch for this commit and start a pull request` e clique em `propose changes`
-![alt text](image-2.png)
+![alt text](docs/image-2.png)
 
 Crie um pull request e peça revisão para o mantenedor do repositório, após revisão, seu artigo será publicado em nosso site 🚀
-![alt text](image-3.png)
+![alt text](docs/image-3.png)
 
 ### Desenvolvido por
 

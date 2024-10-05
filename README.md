@@ -15,7 +15,7 @@
 - Pressione o botão "Go Live" no canto inferior direito do vscode
 - Acesse: [http://127.0.0.1:5500/index.html](http://127.0.0.1:5500/index.html)
 
-### Como adicionar conteúdo
+# Como contribuir
 
 Dentro da pasta [contents](https://github.com/Matheus-gs/comunidade-academica/tree/main/contents) adicione um arquivo de extensão `.md`, para isso, clique em "Add file" e em seguida em "Create new file"
 

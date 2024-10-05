@@ -1,9 +1,11 @@
+// API variables
 const owner = "Matheus-gs";
 const repo = "comunidade-academica";
 const dataDirectory = "contents";
 const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${dataDirectory}`;
 const projectRepo = "https://github.com/matheus-gs/comunidade-academica";
 
+// Element references
 const linksContainer = document.getElementById("links");
 const notFoundSection = document.getElementById("notFoundSection");
 const notFoundDecription = document.getElementById("notFoundDescription");
@@ -12,6 +14,7 @@ const githubLink = document.getElementById("githubLink");
 
 let data = [];
 
+// Events
 document.addEventListener("DOMContentLoaded", () => {
   fetch(apiUrl)
     .then((response) => response.json())
@@ -38,6 +41,14 @@ searchInput.addEventListener("input", () => {
   }
 });
 
+githubLink.addEventListener("click", () => {
+  const linkEl = document.createElement("a");
+  linkEl.href = projectRepo;
+  linkEl.target = "_blank";
+  linkEl.click();
+});
+
+// Render functions
 function renderLinks(files) {
   linksContainer.innerHTML = "";
   notFoundSection.style.display = "none";
@@ -59,10 +70,3 @@ function renderNotFound(searchTerm) {
     searchTerm ? `relacionado a: "${searchTerm}"` : ""
   } 🥹`;
 }
-
-githubLink.addEventListener("click", () => {
-  const linkEl = document.createElement("a");
-  linkEl.href = projectRepo;
-  linkEl.target = "_blank";
-  linkEl.click();
-});

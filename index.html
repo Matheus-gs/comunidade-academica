@@ -33,9 +33,18 @@
         </button>
       </header>
       <section class="content">
-        <input type="text" id="searchInput" placeholder="Pesquise aqui" />
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Pesquise aqui"
+          maxlength="50"
+        />
         <div class="links-container">
           <div class="links" id="links"></div>
+          <div class="notFound-container" id="notFoundSection">
+            <h2 id="notFoundDescription"></h2>
+            <img src="./assets/notFound.gif" alt="404 Image" />
+          </div>
         </div>
       </section>
       <footer class="footer">

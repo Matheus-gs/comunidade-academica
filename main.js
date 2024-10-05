@@ -3,6 +3,8 @@ const repo = "comunidade-academica";
 const dataDirectory = "contents";
 const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${dataDirectory}`;
 const linksContainer = document.getElementById("links");
+const notFoundSection = document.getElementById("notFoundSection");
+const notFoundDecription = document.getElementById("notFoundDescription");
 const searchInput = document.getElementById("searchInput");
 
 let data = [];
@@ -26,11 +28,16 @@ searchInput.addEventListener("input", () => {
   const filteredData = data.filter((file) =>
     file.name.toLowerCase().includes(searchTerm)
   );
-  renderLinks(filteredData);
+  if (filteredData.length) {
+    renderLinks(filteredData);
+  } else {
+    renderNotFound(searchTerm);
+  }
 });
 
 function renderLinks(files) {
   linksContainer.innerHTML = "";
+  notFoundSection.style.display = "none";
 
   files.forEach((file) => {
     const linkCard = document.createElement("a");
@@ -40,6 +47,14 @@ function renderLinks(files) {
     linkCard.target = "_blank";
     linksContainer.appendChild(linkCard);
   });
+}
+
+function renderNotFound(searchTerm) {
+  linksContainer.innerHTML = "";
+  notFoundSection.style.display = "flex";
+  notFoundDecription.innerText = `Ooops, não encontramos nenhum conteúdo ${
+    searchTerm ? `relacionado a: "${searchTerm}"` : ""
+  } 🥹`;
 }
 
 function capitalize(str) {

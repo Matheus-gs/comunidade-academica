@@ -34,7 +34,7 @@ searchInput.addEventListener("input", () => {
   if (filteredData.length) {
     renderLinks(filteredData);
   } else {
-    renderNotFound(searchTerm);
+    debounce(renderNotFound(searchTerm), 1000);
   }
 });
 
@@ -79,3 +79,13 @@ githubLink.addEventListener("click", () => {
   linkEl.target = "_blank";
   linkEl.click();
 });
+
+function debounce(func, timeout = 300) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      func.apply(this, args);
+    }, timeout);
+  };
+}

@@ -1,3 +1,4 @@
+console.log('👀')
 document
 .querySelector(".github-icon")
 .addEventListener("click", function () {

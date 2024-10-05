@@ -30,7 +30,7 @@ Quando quiser publicar, clique em `commit changes...` e adicione uma breve descr
 Crie um pull request e peça revisão para o mantenedor do repositório, após revisão, seu artigo será publicado em nosso site 🚀
 ![alt text](docs/image-3.png)
 
-### Desenvolvido por
+### Idealizado por
 
 - Raphael Veras
 - Lucas Simões

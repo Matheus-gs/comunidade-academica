@@ -48,7 +48,7 @@ export default function App() {
   ]
 
   const links = linkList.map(link => (
-    <LinkCard key={link.id} label={link.label} href={link.href}/>
+    <LinkCard key={link.id} label={link.label} href={link.href} />
   ))
 
   return (

@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "formulahendry.auto-complete-tag",
+    "aaron-bond.better-comments",
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "sainoba.px-to-rem",
+    "bradlc.vscode-tailwindcss"
+  ]
+}

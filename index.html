@@ -1,16 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Comunidade Acadêmica</h2>
+        <i
+          class="fab fa-github github-icon"
+          title="Clique para acessar o repositório do projeto"
+        ></i>
+      </div>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/react.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Comunidade Acadêmica</title>
-</head>
+      <div class="links" id="links"></div>
 
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
-</body>
+      <div class="footer">
+        <p>Com ❤️ por: Alunos do UDF</p>
+      </div>
+    </div>
 
+    <script src="./main.js"></script>
+  </body>
 </html>

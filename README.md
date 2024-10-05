@@ -1,20 +1,22 @@
 # Comunidade Acadêmica
 
+### Requisitos
 
-### Requisitos 
-* [Node](https://nodejs.org/en)
+- [vscode](https://code.visualstudio.com/)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-```shell
-# Para executar o projeto em ambiente local
-npm install && npm run dev
-```
+### Como rodar o projeto
 
-# Desenvolvido por
-* Raphael Veras
-* Lucas Simões
-* Matheus Gomes
-* Herick Neris
-* Ezequiel Magalhães
+- Instale o vscode
+- Instale a extensão live server no vscode
+- Clone o projeto e entre na pasta raiz
+- Pressione o botão "Go Live" no canto inferior direito do vscode
+- Acesse: [http://127.0.0.1:5500/index.html](http://127.0.0.1:5500/index.html)
 
-# Disclaimer
-Esse projeto ainda é um MVP :)
+### Desenvolvido por
+
+- Raphael Veras
+- Lucas Simões
+- Matheus Gomes
+- Herick Neris
+- Ezequiel Magalhães

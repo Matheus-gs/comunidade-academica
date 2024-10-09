@@ -1,7 +1,4 @@
 # Comunidade Acadêmica
-
-![alt text](docs/video/2024-10-09%2016-41-53.mkv)
-
 <!--  -->
 
 ### Requisitos

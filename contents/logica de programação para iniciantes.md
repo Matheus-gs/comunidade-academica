@@ -108,4 +108,4 @@ else:
 
 Aprender lógica de programação é o primeiro passo para se tornar um desenvolvedor. É uma habilidade que será usada em todas as linguagens de programação e é essencial para resolver problemas de forma eficiente. Com paciência e prática, qualquer pessoa pode dominar os fundamentos da lógica e avançar no mundo da programação.
 
-**Autoria: Chat GPT**
+**Fonte: LÓGICA de programação para iniciantes. Rocketseat. Disponível em: https://www.rocketseat.com.br/blog/artigos/post/logica-de-programacao-para-iniciantes-em-programacao. Acesso em: 10 jun. 2024.**

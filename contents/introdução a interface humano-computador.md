@@ -45,3 +45,5 @@ A IHC é uma área em constante evolução, com o surgimento de novas tecnologia
 Em resumo, a Interface Humano-Computador é uma área fundamental para o desenvolvimento de sistemas computacionais que sejam eficientes, intuitivos e
 agradáveis de usar. Ao compreender os princípios e conceitos da IHC, é possível criar interfaces que melhorem a experiência do usuário e aumentem a
 produtividade.
+
+**Fontes: Dix, H., Finlay, J., Abowd, G., & Beale, R. (1998). Human-computer interaction. Prentice Hall.**

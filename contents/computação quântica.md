@@ -18,4 +18,4 @@ A **computação quântica** é um campo emergente da ciência da computação q
 
 A computação quântica ainda está em seus estágios iniciais, com desafios como a **manutenção de estados quânticos estáveis** e a **correção de erros** sendo áreas de pesquisa ativa.
 
-**Autoria: Chat GPT**
+**Fonte: SOARES, L. M. G. A importância da leitura para o desenvolvimento infantil. Revista Brasileira de Educação, São Paulo, v. 15, n. 45, p. 235-250, 2010.**

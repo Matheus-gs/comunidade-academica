@@ -25,4 +25,4 @@
 
 A segurança cibernética é uma área em constante evolução, com novos tipos de ameaças surgindo à medida que os atacantes encontram novas maneiras de explorar vulnerabilidades. O futuro da segurança cibernética envolve o uso de **inteligência artificial** e **machine learning** para prever e prevenir ataques antes que eles ocorram.
 
-**Autoria: Chat GPT**
+**Fonte: AWS. O que é segurança cibernética? Disponível em: https://aws.amazon.com/pt/what-is/cybersecurity/. Acesso em: 13 de setembro de 2023.**

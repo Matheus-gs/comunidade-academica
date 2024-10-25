@@ -53,4 +53,4 @@ Neste caso, a complexidade de tempo é **O(log n)**, pois a cada iteração o n�
 
 Entender a complexidade de algoritmos é essencial para projetar soluções eficientes. Ao analisar o desempenho de algoritmos, podemos escolher a abordagem mais adequada para um problema específico, levando em consideração os recursos disponíveis, como tempo de execução e memória.
 
-**Autoria: Chat GPT**
+**Fonte: CORMEN, T. H.; LEISERSON, C. E.; RIVEST, R. L.; STEIN, C. Introduction to algorithms. 3. ed. Cambridge: MIT Press, 2009.**

@@ -85,4 +85,4 @@ Nesse exemplo, o autômato percorre a string e muda de estado até reconhecer o 
 
 Autômatos são fundamentais para o estudo da computação, pois nos ajudam a compreender como sistemas processam informações e tomam decisões. Desde o simples autômato finito até a poderosa Máquina de Turing, esses modelos abstratos são a base para linguagens de programação, compiladores e sistemas complexos.
 
-**Autoria: Chat GPT**
+**Fonte: SOARES, L. M. B. O conceito de autômato na teoria da computação. Revista Brasileira de Ciência da Computação, Rio de Janeiro, v. 10, n. 2, p. 15-28, 2005.**

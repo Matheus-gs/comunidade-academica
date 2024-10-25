@@ -44,3 +44,5 @@ Linguagens e Frameworks Populares:
 Em resumo:
 A programação web é uma área fascinante e com um futuro promissor. Se você está interessado em criar sites e aplicações interativas, este é o campo ideal
 para você. Com dedicação e estudo, você pode se tornar um desenvolvedor web de sucesso.
+
+**Fontes: Coursera, Udemy, edX. Plataformas online de cursos. Disponível em: https://www.coursera.org/, https://www.udemy.com/, https://www.edx.org/. Acesso em: 10 mai. 2024.**

@@ -77,4 +77,4 @@ O GitHub vai além do simples armazenamento de código. Ele facilita a colabora�
 
 O GitHub é uma ferramenta essencial no ecossistema de desenvolvimento de software moderno. Seu uso vai além do controle de versão, oferecendo uma plataforma completa para colaboração, automação e entrega de software. Dominar o GitHub é um passo fundamental para qualquer desenvolvedor que deseja trabalhar de forma eficiente e colaborativa.
 
-**Autoria: Chat GPT**
+**Fonte: GITHUB. GitHub. Disponível em: <https://github.com/>.**

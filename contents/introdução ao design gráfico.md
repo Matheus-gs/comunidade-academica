@@ -38,3 +38,5 @@ design e motion graphics está crescendo cada vez mais.
 
 Em resumo, o design gráfico é uma profissão fundamental para a comunicação visual em nosso mundo cada vez mais visual. Um bom designer gráfico é capaz de
 criar designs que não apenas são esteticamente agradáveis, mas também eficazes em alcançar os objetivos de comunicação de seus clientes.
+
+**Fonte: SILVA, A. B. O futuro do design gráfico. Revista Brasileira de Design, São Paulo, v. 12, n. 2, p. 45-58, maio/ago. 2023.**

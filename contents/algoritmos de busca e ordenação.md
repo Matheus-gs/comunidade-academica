@@ -17,4 +17,4 @@ Os **algoritmos de busca e ordenação** são fundamentais para a organização 
 
 Esses algoritmos são usados em sistemas de arquivos, ordenação de grandes conjuntos de dados, e otimizações em operações de busca.
 
-**Autoria: Chat GPT**
+**Fonte: CORMEN, Thomas H. et al. Introdução à algoritmos. 3. ed. Rio de Janeiro: Elsevier, 2012.**

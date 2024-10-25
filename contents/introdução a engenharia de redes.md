@@ -42,3 +42,5 @@ Os cursos de Engenharia de Redes abordam temas como:
 - Administração de sistemas operacionais de rede
 - Programação de redes
 - Gestão de projetos de redes
+
+  **Fonte: TANENBAUM, Andrew S. Redes de computadores. 5. ed. Rio de Janeiro: Elsevier, 2003.**

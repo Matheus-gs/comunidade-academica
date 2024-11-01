@@ -1,5 +1,5 @@
 # Comunidade Acadêmica
-<!--  -->
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 ### Requisitos
 

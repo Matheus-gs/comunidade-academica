@@ -98,12 +98,16 @@ body {
 
 .github-icon {
   color: var(--foreground);
-  background-color: transparent;
+  background-color: var(--color-primary);
   border: none;
   outline: none;
-  padding: 0;
+  padding: 8px;
   font-size: 24px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
 }
 
 .footer {

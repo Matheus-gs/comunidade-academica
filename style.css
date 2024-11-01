@@ -5,6 +5,7 @@
 }
 
 :root {
+  --color-primary: #76c0cb;
   --background: #ffffff;
   --card-background: #d7d7d7;
   --card-background-hover: #c9c8c8;
@@ -15,6 +16,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --color-primary: #76c0cb;
     --background: #0a0a0a;
     --card-background: #537c82;
     --card-background-hover: #53827cb0;
@@ -87,6 +89,11 @@ body {
 
 .header h2 {
   font-size: 2rem;
+}
+
+.header h2 > span.title-highlight {
+  border-radius: 4px;
+  color: var(--color-primary);
 }
 
 .github-icon {

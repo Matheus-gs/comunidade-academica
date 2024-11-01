@@ -183,7 +183,7 @@ section.content {
   position: absolute;
 }
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 835px) {
   .links-container {
     flex-direction: column;
   }
@@ -197,6 +197,10 @@ section.content {
   }
 
   .container {
+    height: auto;
+  }
+
+  section.content {
     height: auto;
   }
 }

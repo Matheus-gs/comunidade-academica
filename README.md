@@ -1,6 +1,17 @@
 # Comunidade Acadêmica (A.K.A KDHUB)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
+
+### Esse trabalho foi parte da disciplina de projetos de linguagem de programação do centro universiário do distrito federal, idealizado por:
+
+- [Prof Kadidja Valeria](https://github.com/Kadidjah)
+- [Raphael Veras - 28253671](https://github.com/Rapah2002)
+- [Lucas Simões - 26447070](https://github.com/lucmenn)
+- [Matheus Gomes - 26136805](https://github.com/Matheus-gs)
+- [Herick Neris - 25851471](https://github.com/hericknerisr)
+- [Ezequiel Magalhães - 28256131](https://github.com/EzequielMagalhaes)
+
+
 ### Requisitos
 
 - [vscode](https://code.visualstudio.com/)
@@ -36,10 +47,3 @@ Crie um pull request e peça revisão para o mantenedor do repositório, após r
 Consulte o guia [entendendo github](https://github.com/Matheus-gs/comunidade-academica/blob/main/contents/entendendo%20github.md) e 
 abra uma issue neste repositório [issues](https://github.com/matheus-gs/comunidade-academica/issues)
 
-### Idealizado por alunos de ciência da computação do UDF
-
-- Raphael Veras
-- Lucas Simões
-- Matheus Gomes
-- Herick Neris
-- Ezequiel Magalhães

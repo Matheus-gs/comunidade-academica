@@ -31,7 +31,11 @@ Quando quiser publicar, clique em `commit changes...` e adicione uma breve descr
 Crie um pull request e peça revisão para o mantenedor do repositório, após revisão, seu artigo será publicado em nosso site 🚀
 ![alt text](docs/image-3.png)
 
-### Idealizado por
+
+### Sugestões ou melhorias? 
+Abra uma issue neste repositório [issues](https://github.com/matheus-gs/comunidade-academica/issues)
+
+### Idealizado por alunos de ciência da computação do UDF
 
 - Raphael Veras
 - Lucas Simões

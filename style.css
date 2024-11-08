@@ -41,9 +41,8 @@ b {
 
 body {
   color: var(--foreground);
-  background: url(assets/images/background.png);
-  /* background: url("https://images.pexels.com/photos/3665442/pexels-photo-3665442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
-  background: url("");
+  /* background: url(assets/images/background.png); */
+  background: url("https://images.pexels.com/photos/3665442/pexels-photo-3665442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

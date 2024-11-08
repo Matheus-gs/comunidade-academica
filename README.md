@@ -33,7 +33,8 @@ Crie um pull request e peça revisão para o mantenedor do repositório, após r
 
 
 ### Sugestões ou melhorias? 
-Abra uma issue neste repositório [issues](https://github.com/matheus-gs/comunidade-academica/issues)
+Consulte o guia [entendendo github](https://github.com/Matheus-gs/comunidade-academica/blob/main/contents/entendendo%20github.md) e 
+abra uma issue neste repositório [issues](https://github.com/matheus-gs/comunidade-academica/issues)
 
 ### Idealizado por alunos de ciência da computação do UDF
 

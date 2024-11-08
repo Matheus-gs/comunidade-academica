@@ -1,3 +1,11 @@
+### Idealizado por alunos de Ciência da Computação do UDF:
+
+- Raphael Veras (28253671);
+- Lucas Simões (26447070);
+- Matheus Gomes (26136805);
+- Herick Neris (25851471);
+- Ezequiel Magalhães (28256131).
+
 # Comunidade Acadêmica (A.K.A KDHUB)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
@@ -35,11 +43,3 @@ Crie um pull request e peça revisão para o mantenedor do repositório, após r
 ### Sugestões ou melhorias? 
 Consulte o guia [entendendo github](https://github.com/Matheus-gs/comunidade-academica/blob/main/contents/entendendo%20github.md) e 
 abra uma issue neste repositório [issues](https://github.com/matheus-gs/comunidade-academica/issues)
-
-### Idealizado por alunos de ciência da computação do UDF
-
-- Raphael Veras
-- Lucas Simões
-- Matheus Gomes
-- Herick Neris
-- Ezequiel Magalhães

@@ -58,6 +58,7 @@ function renderLinks(files) {
     linkCard.className = "link-card";
     linkCard.href = file.html_url;
     linkCard.textContent = capitalize(file.name).replace(".md", "");
+    linkCard.textContent = "Saiba mais"
     linkCard.target = "_blank";
     linksContainer.appendChild(linkCard);
   });

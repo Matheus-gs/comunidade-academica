@@ -41,7 +41,8 @@ b {
 
 body {
   color: var(--foreground);
-  background: url(assets/images/background.png);
+  /* background: url(assets/images/background.png); */
+  background: url("");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,6 +108,13 @@ body {
   border-radius: 4px;
   color: var(--color-primary);
 }
+
+header > .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+} 
 
 .github-icon {
   color: var(--foreground);

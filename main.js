@@ -54,13 +54,10 @@ function renderLinks(files) {
   notFoundSection.style.display = "none";
 
   files.forEach((file) => {
-    const title = document.createElement("h2")
-
-    title.textContent = capitalize(file.name).replace(".md", "")
     const linkCard = document.createElement("a");
     linkCard.className = "link-card";
     linkCard.href = file.html_url;
-    linkCard.textContent = "Saiba mais"
+    linkCard.textContent = capitalize(file.name).replace(".md", "")
     linkCard.target = "_blank";
     linksContainer.appendChild(linkCard);
   });

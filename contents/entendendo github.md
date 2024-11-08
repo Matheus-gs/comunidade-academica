@@ -73,6 +73,54 @@ Aqui está um exemplo de fluxo de trabalho comum no GitHub:
 
 O GitHub vai além do simples armazenamento de código. Ele facilita a colaboração em projetos, permite que desenvolvedores revisem o trabalho uns dos outros e ajuda a manter um histórico detalhado do desenvolvimento de software. Além disso, ele se integra com várias ferramentas e plataformas, tornando-se uma escolha popular em equipes de software.
 
+## Criando issues
+
+Abrir uma issue em um repositório no GitHub é uma maneira de relatar problemas, sugerir melhorias ou discutir funcionalidades para um projeto. Abaixo está um passo a passo para fazer isso de forma simples:
+
+1. Acesse o Repositório
+
+	•	Primeiro, entre no repositório onde você deseja abrir a issue. Você precisa do link ou pode navegar pelo perfil do proprietário do repositório no GitHub.
+	•	Certifique-se de estar logado em sua conta no GitHub.
+
+2. Vá até a Aba “Issues”
+
+	•	No topo do repositório, clique na aba Issues. Esta é a seção onde todas as issues do projeto são listadas.
+
+3. Clique em “New Issue”
+
+	•	Na seção de Issues, você verá um botão verde chamado New Issue. Clique nele para abrir uma nova issue.
+
+4. Escreva o Título da Issue
+
+	•	Escolha um título descritivo e direto para a sua issue. O título deve resumir o problema ou a sugestão de forma clara.
+
+5. Descreva o Problema ou Sugestão
+
+	•	No campo de descrição, explique em detalhes o problema que encontrou, a sugestão de melhoria, ou a dúvida que deseja discutir. Inclua:
+	•	Passos para reproduzir o problema (se for um bug).
+	•	Comportamento esperado e comportamento atual.
+	•	Informações adicionais como versão do sistema, configuração específica, ou links relevantes.
+
+6. Adicione Labels (Opcional)
+
+	•	Algumas permissões de repositório permitem que você adicione labels. Essas labels ajudam a categorizar a issue, como “bug”, “feature request”, “documentation”, etc.
+	•	Se você não tiver essa permissão, a equipe responsável pelo projeto irá classificar sua issue.
+
+7. Anexe Arquivos ou Código (Opcional)
+
+	•	Se necessário, você pode anexar imagens, vídeos ou até blocos de código para ajudar a ilustrar melhor o problema. Isso facilita o entendimento e a resolução por parte dos mantenedores do projeto.
+
+8. Clique em “Submit new issue”
+
+	•	Após preencher todas as informações, clique no botão Submit new issue para criar a issue.
+
+9. Acompanhe a Issue
+
+	•	Você pode comentar na issue depois de criada e será notificado por e-mail ou no próprio GitHub sempre que alguém responder.
+
+E pronto! Você criou sua primeira issue no GitHub. Isso ajuda os mantenedores do projeto a identificar problemas e priorizar melhorias.
+
+
 ## Conclusão
 
 O GitHub é uma ferramenta essencial no ecossistema de desenvolvimento de software moderno. Seu uso vai além do controle de versão, oferecendo uma plataforma completa para colaboração, automação e entrega de software. Dominar o GitHub é um passo fundamental para qualquer desenvolvedor que deseja trabalhar de forma eficiente e colaborativa.

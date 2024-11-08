@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* 
 :root {
   --color-primary: #76c0cb;
   --background: #ffffff;
@@ -12,9 +12,9 @@
   --input-background: #d7d7d7;
   --foreground: #171717;
   --input-foreground: #333333;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
   :root {
     --color-primary: #76c0cb;
     --background: #0a0a0a;
@@ -24,7 +24,7 @@
     --foreground: #ededed;
     --input-foreground: #333333;
   }
-}
+/* } */
 
 h1,
 h2,
@@ -69,6 +69,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+.about > h2,
+.about > a {
   color: #ffffff;
 }
 

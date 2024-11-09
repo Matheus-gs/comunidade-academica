@@ -8,9 +8,8 @@
 # Comunidade Acadêmica 
 Escreva e compartilhe conteúdos de Ciência da Computação com a comunidade dos cursos de tecnologia do UDF 🧑🏻‍💻
 
-
-
-### Esse trabalho foi parte da disciplina de projetos de linguagem de programação do Centro Universitário do Distrito Federal, idealizado por:
+## Sobre
+ Esse trabalho foi parte da disciplina de projetos de linguagem de programação do Centro Universitário do Distrito Federal, idealizado por:
 
 - [Prof Kadidja Valeria](https://github.com/Kadidjah)
 - [Raphael Veras - 28253671](https://github.com/Rapah2002)
@@ -34,7 +33,7 @@ Escreva e compartilhe conteúdos de Ciência da Computação com a comunidade do
 
 Dúvidas? [Clique aqui](https://drive.google.com/file/d/1HWLBdB53N0ozXath9q3I-XUHnPAGxoHL/view?usp=sharing)
 
-# Como contribuir
+## Como contribuir
 
 Dentro da pasta [contents](https://github.com/Matheus-gs/comunidade-academica/tree/main/contents) adicione um arquivo de extensão `.md`, para isso, clique em "Add file" e em seguida em "Create new file"
 
@@ -49,7 +48,7 @@ Quando quiser publicar, clique em `commit changes...` e adicione uma breve descr
 Crie um pull request e peça revisão para o mantenedor do repositório, após revisão, seu artigo será publicado em nosso site 🚀
 ![alt text](docs/image-3.png)
 
-### Sugestões ou melhorias?
+## Sugestões ou melhorias?
 
 Consulte o guia [entendendo github](https://github.com/Matheus-gs/comunidade-academica/blob/main/contents/entendendo%20github.md) e
 abra uma issue neste repositório [issues](https://github.com/matheus-gs/comunidade-academica/issues)

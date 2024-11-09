@@ -15,15 +15,15 @@
 } */
 
 /* @media (prefers-color-scheme: dark) { */
-  :root {
-    --color-primary: #76c0cb;
-    --background: #0a0a0a;
-    --card-background: #537c82a2;
-    --card-background-hover: #53827cb0;
-    --input-background: #ffffff;
-    --foreground: #ededed;
-    --input-foreground: #333333;
-  }
+:root {
+  --color-primary: #76c0cb;
+  --background: #0a0a0a;
+  --card-background: #537c82a2;
+  --card-background-hover: #53827cb0;
+  --input-background: #ffffff;
+  --foreground: #ededed;
+  --input-foreground: #333333;
+}
 /* } */
 
 h1,
@@ -41,8 +41,8 @@ b {
 
 body {
   color: var(--foreground);
-  /* background: url(assets/images/background.png); */
-  background: url("https://images.pexels.com/photos/3665442/pexels-photo-3665442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background: url(assets/images/background.png);
+  /* background: url("https://images.pexels.com/photos/3665442/pexels-photo-3665442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@ body {
 .about {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
 }
 
 .about > h2,
@@ -115,7 +115,7 @@ header > .logo-container {
   gap: 8px;
   height: 100%;
   color: #ffffff;
-} 
+}
 
 .github-icon {
   color: var(--foreground);
@@ -169,6 +169,8 @@ section.content {
   font-size: 18px;
   height: 168px;
   display: flex;
+  flex-direction: column;
+  gap: 16px;
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s;

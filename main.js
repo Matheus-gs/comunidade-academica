@@ -54,11 +54,17 @@ function renderLinks(files) {
   notFoundSection.style.display = "none";
 
   files.forEach((file) => {
-    const linkCard = document.createElement("a");
+    const linkEl = document.createElement("a");
+    linkEl.href = file.html_url;
+    linkEl.target = "_blank";
+    linkEl.textContent = "Leia aqui";
+
+    const linkCard = document.createElement("span");
     linkCard.className = "link-card";
-    linkCard.href = file.html_url;
-    linkCard.textContent = capitalize(file.name).replace(".md", "")
-    linkCard.target = "_blank";
+    linkCard.innerHTML = `<h5>${capitalize(file.name).replace(".md", "")}</h5>`;
+
+    linkCard.appendChild(linkEl);
+
     linksContainer.appendChild(linkCard);
   });
 }

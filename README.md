@@ -1,8 +1,8 @@
 # Comunidade Acadêmica (A.K.A KDHUB)
+
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-
-### Esse trabalho foi parte da disciplina de projetos de linguagem de programação do centro universiário do distrito federal, idealizado por:
+### Esse trabalho foi parte da disciplina de projetos de linguagem de programação do Centro Universitário do Distrito Federal, idealizado por:
 
 - [Prof Kadidja Valeria](https://github.com/Kadidjah)
 - [Raphael Veras - 28253671](https://github.com/Rapah2002)
@@ -10,7 +10,6 @@
 - [Matheus Gomes - 26136805](https://github.com/Matheus-gs)
 - [Herick Neris - 25851471](https://github.com/hericknerisr)
 - [Ezequiel Magalhães - 28256131](https://github.com/EzequielMagalhaes)
-
 
 ### Requisitos
 
@@ -42,8 +41,7 @@ Quando quiser publicar, clique em `commit changes...` e adicione uma breve descr
 Crie um pull request e peça revisão para o mantenedor do repositório, após revisão, seu artigo será publicado em nosso site 🚀
 ![alt text](docs/image-3.png)
 
+### Sugestões ou melhorias?
 
-### Sugestões ou melhorias? 
-Consulte o guia [entendendo github](https://github.com/Matheus-gs/comunidade-academica/blob/main/contents/entendendo%20github.md) e 
+Consulte o guia [entendendo github](https://github.com/Matheus-gs/comunidade-academica/blob/main/contents/entendendo%20github.md) e
 abra uma issue neste repositório [issues](https://github.com/matheus-gs/comunidade-academica/issues)
-

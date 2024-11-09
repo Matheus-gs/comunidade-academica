@@ -1,6 +1,14 @@
-# Comunidade Acadêmica (A.K.A KDHUB)
+<p align="start">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" height="24px"/>
+  <img src="https://img.shields.io/badge/HTML5-e34f26?;labelColor=555555&amp;logoColor=white" height="24px"/>
+  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" height="24px"/>
+  <img src="https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square" height="24px"/>
+</p>
+  
+# Comunidade Acadêmica 
+Escreva e compartilhe conteúdos de Ciência da Computação com a comunidade dos cursos de tecnologia do UDF 🧑🏻‍💻
 
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 
 ### Esse trabalho foi parte da disciplina de projetos de linguagem de programação do Centro Universitário do Distrito Federal, idealizado por:
 

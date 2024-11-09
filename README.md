@@ -6,7 +6,7 @@
 </p>
   
 # Comunidade Acadêmica 
-Escreva e compartilhe conteúdos de Ciência da Computação com a comunidade dos cursos de tecnologia do UDF 🧑🏻‍💻
+Escreva e compartilhe conteúdos de Ciência da Computação com a comunidade dos cursos de tecnologia do UDF!
 
 ![image](https://github.com/user-attachments/assets/941567e0-71dc-441b-a4ac-f6a0114200e4)
 
